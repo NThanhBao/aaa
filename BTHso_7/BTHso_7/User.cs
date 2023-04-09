@@ -1,0 +1,53 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+namespace BTHso_7
+{
+    public class User
+    {
+        private string firstName;
+        private string lastName;
+        private string email;
+        private string gender;
+        private string address;
+        private string userName;
+        private string passWord;
+
+
+        public User()
+        {
+            firstName = "";
+            lastName = "";
+            email = "";
+            gender = "";
+            address = "";
+            userName = "";
+            passWord = "";
+
+        }
+
+        public User(string ten, string hodem, string mail, string gt, string dc, string us, string pw)
+        {
+            firstName = ten;
+            lastName = hodem;
+            email = mail;
+            gender = gt;
+            address = dc;
+            userName = us;
+            passWord = pw;
+        }
+
+        public string FirstName { get { return firstName; } set { firstName = value; } }
+        public string LastName { get { return lastName; } set { lastName = value; } }
+        public string Email { get { return email; } set { email = value; } }
+        public string Gender { get { return gender; } set { gender = value; } }
+        public string Address { get { return address; } set { address = value; } }
+        public string UserName { get { return userName; } set { userName = value; } }
+        public string PassWord { get { return passWord; } set { passWord = value; } }
+
+
+    }
+
+}
