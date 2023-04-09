@@ -1,0 +1,28 @@
+﻿body {
+}
+
+.header {
+    background-color:mediumblue;
+    display: flex;
+    justify-content: space-between;
+    Width:100%;
+    height:150px;
+}
+
+    .header h1 {
+        
+        color: white;
+        padding: 25px;
+    }
+
+.InputLogin {
+    color: aliceblue;
+    padding: 20px;
+    padding-right:100px;
+    
+}
+
+.btnDangnhap{
+    background-color:cornflowerblue;
+    color:aliceblue;
+}
